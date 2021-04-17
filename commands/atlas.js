@@ -28,7 +28,7 @@ module.exports.run = async (client, message, args) => {
             }else if(user.newPackageRank === "VIP_PLUS"){
                 var rank = "VIP+"
             }else if(user.newPackageRank === "MVP"){
-                var rank = "MPV"
+                var rank = "MVP"
             }else if(user.newPackageRank === "MVP_PLUS"){
                 var rank = "MVP+"
             }
@@ -121,7 +121,6 @@ module.exports.run = async (client, message, args) => {
         }else{
             atlasresults.setColor("#cd00cd")
         }
-        //message.channel.send(`User Rank: ${rank}\nSkywars Games: ${swwins + swlose}\nAtlas %: ${progress}`)
         console.log(user)
         if (user.lastLogin > user.lastLogout){
             atlasresults.setFooter('User is currently online', `https://crafatar.com/avatars/${user.uuid}`);
