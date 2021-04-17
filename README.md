@@ -1,7 +1,7 @@
 ## Atlas Progress
 > A DiscordJS v12 bot that tracks your Atlas Progress
 
-This is a bot made in DiscordJS v12 for those of you that want to track your progress towards unlocking Atlass
+This is a bot made in DiscordJS v12 for those of you that want to track your progress towards unlocking Atlas
 
 ## Installation
 
