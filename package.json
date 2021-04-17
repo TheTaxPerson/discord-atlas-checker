@@ -1,0 +1,24 @@
+{
+  "name": "atlas-checker",
+  "version": "1.0.0",
+  "description": "A tool that shows you how close you are to unlocking atlas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheTaxPerson/discord-atlas-checker.git"
+  },
+  "author": "TheTaxPerson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheTaxPerson/discord-atlas-checker/issues"
+  },
+  "homepage": "https://github.com/TheTaxPerson/discord-atlas-checker#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.6.1"
+  }
+}
