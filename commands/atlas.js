@@ -12,12 +12,13 @@ module.exports.run = async (client, message, args) => {
     .then(text => {
         var obj = JSON.parse(text);
         var user = obj.player
-        console.log(user.stats)
         if (`${user}` === "null"){
             message.reply("This user doesn't exist")
         }
-        if (obj.success === 'You have already looked up this name recently'){
-            message.reply("Please wait a while before searching the user again")
+        if (obj.success == false){
+            if (obj.cause === 'You have already looked up this name recently'){
+                message.reply("Please wait a while before searching the user again")
+            }
         }
         //Rank Assignment
         if (user.rank === undefined){
